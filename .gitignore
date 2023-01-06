@@ -4,5 +4,7 @@
 
 /bundles/
 
+.idea/**
+
 .vim/
 .vscode/
