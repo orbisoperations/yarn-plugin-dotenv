@@ -4,7 +4,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jeysal/yarn-plugin-dotenv"
+    "url": "https://github.com/orbisoperations/yarn-plugin-dotenv"
   },
   "main": "index.ts",
   "files": [
@@ -16,14 +16,16 @@
     "test": "echo run ./test.bash instead && false"
   },
   "dependencies": {
-    "dotenv": "^8.2.0",
+    "dotenv": "^16.0.3",
     "find-config": "^1.0.0"
   },
   "devDependencies": {
-    "@types/find-config": "^1.0.0",
-    "@types/node": "^14.0.0",
-    "@yarnpkg/builder": "^2.1.1",
-    "@yarnpkg/core": "^2.1.1",
-    "typescript": "^3.9.5"
-  }
+    "@types/find-config": "^1.0.1",
+    "@types/node": "^18.11.18",
+    "@yarnpkg/builder": "^4.0.0-rc.34",
+    "@yarnpkg/core": "^4.0.0-rc.34",
+    "typescript": "^3.9.5",
+    "yarn": "^2.4.3"
+  },
+  "packageManager": "yarn@3.3.1"
 }

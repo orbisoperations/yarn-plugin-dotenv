@@ -12,3 +12,7 @@ yarn plugin import https://unpkg.com/yarn-plugin-dotenv/bundles/@yarnpkg/plugin-
 
 - Place a `.env` file with environment variable `KEY=VALUE` pairs in your project directory.
 - Run any of your package scripts, e.g. `yarn run build`.
+
+## To Build
+
+`NODE_OPTIONS=--openssl-legacy-provider yarn build`
